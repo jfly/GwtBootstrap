@@ -4,8 +4,8 @@ How to build
 - Create a symlink to your installation of gwt
    - `ln -s /home/jeremy/thirdrepos/gwt-2.5.1 gwt`
 - Run make
-   - make (or make compile) to generate war/gwting/gwting.nocache.js
-   - make doc to generate doc/jsdoc.html
+   - `make` (or `make compile`) to generate war/gwting/gwting.nocache.js
+   - `make doc` to generate doc/jsdoc.html
       - This command may fail on java 7. It appears to be a bug with gwtexporter (https://code.google.com/p/gwt-exporter/)
 
 
