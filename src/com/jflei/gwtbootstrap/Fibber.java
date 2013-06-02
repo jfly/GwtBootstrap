@@ -16,7 +16,12 @@ import org.timepedia.exporter.client.Exportable;
 @ExportPackage("jflei")
 @Export
 public class Fibber implements Exportable {
-	private Fibber() {}
+	/**
+         * Don't bother constructing a Fibber, it's useless.
+         * The only reason this constructor exists is for the class's
+         * documentation to be generated.
+         */
+	public Fibber() {}
 	
 	/**
 	 * Computes the nth fibonnaci number.
