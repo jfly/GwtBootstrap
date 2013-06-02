@@ -1,0 +1,7 @@
+.settings/
+*.swp
+
+war/
+doc/
+gwt-unitCache/
+gwt
