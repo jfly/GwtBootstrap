@@ -35,6 +35,9 @@ public class Fibber implements Exportable {
 		return fib(n-1) + fib(n-2);
 	}
 	
+         //public static void foo(Color c) {
+               //System.out.println(c);//<<<
+         //}
 	/*public static void foo(Graphics2D g) {
 		g.setColor(Color.RED);
 		g.fillRect(0, 0, 20, 20);
